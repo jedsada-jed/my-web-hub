@@ -1,0 +1,31 @@
+title: My Web Hub
+
+cards:
+  - title: GitHub
+    url: https://github.com
+    emoji: 🐙
+
+  - title: Google
+    url: https://google.com
+    emoji: 🔍
+
+  - title: YouTube
+    url: https://youtube.com
+    emoji: 📺
+
+  - title: ChatGPT
+    url: https://chatgpt.com
+    emoji: 🤖
+
+  - title: Notion
+    url: https://notion.so
+    emoji: 📝
+
+  - title: Figma
+    url: https://figma.com
+    emoji: 🎨
+
+  # Example using a hosted image instead of emoji:
+  # - title: My Site
+  #   url: https://example.com
+  #   image: https://example.com/logo.png
