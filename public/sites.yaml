@@ -1,31 +1,50 @@
 title: My Web Hub
 
 cards:
-  - title: GitHub
-    url: https://github.com
+  - title: Google Developers
+    url: https://developers.googleblog.com/
+    emoji: 🛠️
+
+  - title: Google Cloud Blog
+    url: https://cloud.google.com/blog
+    emoji: ☁️
+
+  - title: Meta Engineering
+    url: https://engineering.fb.com/
+    emoji: 🏗️
+
+  - title: Microsoft Dev Blogs
+    url: https://devblogs.microsoft.com/
+    emoji: 🪟
+
+  - title: AWS Blog
+    url: https://aws.amazon.com/blogs/
+    emoji: 🟠
+
+  - title: Stripe Engineering
+    url: https://stripe.com/blog/engineering
+    emoji: 💳
+
+  - title: GitHub Engineering
+    url: https://github.blog/category/engineering
     emoji: 🐙
 
-  - title: Google
-    url: https://google.com
-    emoji: 🔍
-
-  - title: YouTube
-    url: https://youtube.com
+  - title: Netflix Tech Blog
+    url: https://netflixtechblog.com
     emoji: 📺
 
-  - title: ChatGPT
-    url: https://chatgpt.com
-    emoji: 🤖
+  - title: Uber Engineering
+    url: https://eng.uber.com
+    emoji: 🚗
 
-  - title: Notion
-    url: https://notion.so
-    emoji: 📝
+  - title: Twilio Blog
+    url: https://www.twilio.com/en-us/blog
+    emoji: 📞
 
-  - title: Figma
-    url: https://figma.com
-    emoji: 🎨
+  - title: Airbnb Tech
+    url: https://airbnb.tech/
+    emoji: 🏠
 
-  # Example using a hosted image instead of emoji:
-  # - title: My Site
-  #   url: https://example.com
-  #   image: https://example.com/logo.png
+  - title: LY Corp Tech Blog
+    url: https://techblog.lycorp.co.jp/en
+    emoji: 🗾
