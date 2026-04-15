@@ -9,10 +9,13 @@ export default function App() {
   const [error, setError] = useState<string | null>(null)
 
   useEffect(() => {
-    const base = import.meta.env.BASE_URL
-    fetch(`${base}sites.yaml`)
+    const params = new URLSearchParams(window.location.search)
+    const sourceUrl = params.get('source')
+    const url = sourceUrl ?? `${import.meta.env.BASE_URL}sites.yaml`
+
+    fetch(url)
       .then((res) => {
-        if (!res.ok) throw new Error(`Failed to load sites.yaml (${res.status})`)
+        if (!res.ok) throw new Error(`Failed to load YAML from ${url} (${res.status})`)
         return res.text()
       })
       .then((text) => {
